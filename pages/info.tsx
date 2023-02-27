@@ -88,7 +88,7 @@ const Info: NextPage = () => {
             Video Chat NFT
         </h3>
         <p>
-            The video chat costs $1 per person per month plus tax. This is from an outside service. There will be an NFT soon for some price not much over 12 USDC per year for video chat priveleges. This will unfortunately be required to be purchased by anyone looking to use the video chat. However, it does allow for unlimited time in calls for a 12 month time span.
+            The video chat costs $1 per person per month plus tax. This is from an outside service. There will be various methods soon for some price not much over $1 per month to cover the costs of this. This will unfortunately be required to be purchased by anyone looking to use the video chat. However, it does allow for unlimited time in calls within each month. 
         </p>
         <h3>
             Future Utility
@@ -102,7 +102,7 @@ const Info: NextPage = () => {
         <p>
             The information on this page is in accordance with and expanded on in the link below:
         </p>
-        <p style={{marginBottom: '100px'}}><Link href="https://zentaurios.app/nft-terms-and-conditions" target="_blank">Zentaurios NFT Terms and Conditions</Link></p>
+        <p style={{marginBottom: '100px'}}><Link href="https://zentaurios.app/nft-terms-and-conditions" target="_blank">Zentaurios Legacy NFT Terms and Conditions</Link></p>
       </main>
     </div>
   );

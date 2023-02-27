@@ -14,11 +14,11 @@ const Home: NextPage = () => {
           Owned NFTs
         </h1>
         {!isLoading ? (
-          <div style={{display: "flex", flexDirection: "row", flexWrap: 'wrap'}}>
+          <div style={{display: "flex", flexDirection: "row", flexWrap: 'wrap', justifyContent: 'space-around', marginLeft: 'auto', marginRight: 'auto'}}>
             { ownedNFTs && ownedNFTs.map((ownedNFT) => {
               return (
-                <div key={ownedNFT.metadata.id} style={{marginTop: "20px", border: "2px solid purple", marginLeft: "32px", marginRight: "32px", backgroundColor: 'black'}}>
-                    <div style={{padding: "10px"}}>
+                <div key={ownedNFT.metadata.id} style={{marginTop: "20px", border: "2px solid purple", marginLeft: "16px", marginRight: "16px", backgroundColor: 'black'}}>
+                  <div style={{padding: "10px"}}>
                   <MediaRenderer
                     src={ownedNFT.metadata.image}
                     height="300px"

@@ -2,6 +2,7 @@ import { MediaRenderer, useActiveListings, useContract } from "@thirdweb-dev/rea
 import { BigNumber } from "ethers";
 import { MARKETPLACE_ADDRESS } from "../const/contractAddresses";
 import type { NextPage } from "next";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -17,10 +18,11 @@ const Home: NextPage = () => {
           Marketplace
         </h1>
         {!isLoading ? (
-          <div>
+          <div style={{display: "flex", flexDirection: "row", flexWrap: 'wrap',  justifyContent: 'space-around', marginLeft: 'auto', marginRight: 'auto'}}>
             {nfts && nfts.map((nft) => {
               return (
-                <div key={nft.asset.id}>
+                <div key={nft.asset.id} style={{marginTop: "20px", border: "2px solid purple", marginLeft: "16px", marginRight: "16px", backgroundColor: 'black'}}>
+                  <div style={{padding: "10px" }}>
                   <MediaRenderer
                     src={nft.asset.image}
                     height="200px"
@@ -41,6 +43,7 @@ const Home: NextPage = () => {
                   >
                     Buy Now
                   </button>
+                  </div>
                 </div>
               );
             })}
@@ -50,7 +53,8 @@ const Home: NextPage = () => {
         )
         }
         <p>Do not see an NFT you like? Please Check back soon.</p>
-        <p>Coming to other marketplaces soon!</p>
+        <p>Please read <Link href="/info">Info</Link> page before buying.</p>
+        <p>Buying and selling on other marketplaces soon!</p>
       </main>
     </div>
   );
