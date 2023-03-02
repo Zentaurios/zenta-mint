@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                     width="200px"
                   />
                   <p>{nft.asset.name}</p>
-                  <p>Price: {nft.buyoutCurrencyValuePerToken.displayValue} USDC</p>
+                  <p>Price: {nft.buyoutCurrencyValuePerToken.displayValue} MATIC</p>
                   <p>Chain: Polygon</p>
                   <button
                     onClick={async () => {
