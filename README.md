@@ -1,5 +1,7 @@
 ## Getting Started
 
+The below are instructions from ThirdWeb on their. The code in this repo has been altered to fit the needs of Zentaurios Legacy NFTs and will not work directly from the ReadMe below.
+
 Create a project using this example:
 
 ```bash
