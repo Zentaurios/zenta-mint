@@ -13,10 +13,12 @@ const Drop = () => {
         isLoading,
         error,
     } = useClaimNFT(contract);
-
     if (error) {
         toast.error("Purchase Failed")
         console.error("failed to claim nft", error);
+    }
+    if (!isLoading && !error) {
+        toast.success("NFT Purchased!")
     }
 
     return (
@@ -40,7 +42,7 @@ const Drop = () => {
                     Chain: Polygon
                 </p>
                 <p style={{textAlign: "center"}}>
-                    Cost: 45 USDC
+                    Cost: 37.5 MATIC
                 </p>
                 <button
                     disabled={isLoading}
