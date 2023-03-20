@@ -30,6 +30,27 @@ export default function DropMenu() {
         <Dropdown.Menu css={{
           background: "black"
         }}>
+                    <Dropdown.Item key="info"
+            css={{
+              marginBottom: "10px",
+              '&:hover': {
+                background: '$purple800',
+                color: '#d728e6',
+              },
+              '&:active': {
+                background: '$purple800',
+              },
+              '&:focus': {
+                borderColor: '$purple800',
+              },
+            }}
+          >
+            <Link href="/info">
+              <p style={{ width: "240px", fontSize: "1.3rem" }}>
+                Info
+              </p>
+            </Link>
+          </Dropdown.Item>
           <Dropdown.Item key="marketplace"
             css={{
               marginBottom: "10px",
@@ -45,12 +66,56 @@ export default function DropMenu() {
               },
             }}
           >
-            <Link href="/">
+            <Link href="/marketplace">
               <p style={{ width: "240px", fontSize: "1.3rem" }}>
                 Marketplace
               </p>
             </Link>
           </Dropdown.Item>
+
+          <Dropdown.Item key="mint"
+            css={{
+              marginBottom: "10px",
+              '&:hover': {
+                background: '$purple800',
+                color: '#d728e6',
+              },
+              '&:active': {
+                background: '$purple800',
+              },
+              '&:focus': {
+                borderColor: '$purple800',
+              },
+            }}>
+            <Link href="/drop">
+              <p style={{ width: "240px", fontSize: "1.3rem" }}>
+                Mint
+              </p>
+            </Link>
+          </Dropdown.Item>
+
+          <Dropdown.Item key="whitelist"
+            css={{
+              marginBottom: "10px",
+              '&:hover': {
+                background: '$purple800',
+                color: '#d728e6',
+              },
+              '&:active': {
+                background: '$purple800',
+              },
+              '&:focus': {
+                borderColor: '$purple800',
+              },
+            }}
+          >
+            <Link href="/whitelist">
+              <p style={{ width: "240px", fontSize: "1.3rem" }}>
+                Whitelist Info
+              </p>
+            </Link>
+          </Dropdown.Item>
+
           <Dropdown.Item key="my-nfts"
             css={{
               marginBottom: "10px",
@@ -72,48 +137,8 @@ export default function DropMenu() {
               </p>
             </Link>
           </Dropdown.Item>
-          <Dropdown.Item key="mint"
-            css={{
-              marginBottom: "10px",
-              '&:hover': {
-                background: '$purple800',
-                color: '#d728e6',
-              },
-              '&:active': {
-                background: '$purple800',
-              },
-              '&:focus': {
-                borderColor: '$purple800',
-              },
-            }}>
-            <Link href="/drop">
-              <p style={{ width: "240px", fontSize: "1.3rem" }}>
-                Whitelisted
-              </p>
-            </Link>
-          </Dropdown.Item>
-          <Dropdown.Item key="info"
-            css={{
-              marginBottom: "10px",
-              '&:hover': {
-                background: '$purple800',
-                color: '#d728e6',
-              },
-              '&:active': {
-                background: '$purple800',
-              },
-              '&:focus': {
-                borderColor: '$purple800',
-              },
-            }}
-          >
-            <Link href="/info">
-              <p style={{ width: "240px", fontSize: "1.3rem" }}>
-                Info
-              </p>
-            </Link>
-          </Dropdown.Item>
-          <Dropdown.Item key="communites"
+
+          <Dropdown.Item key="communities"
             css={{
               marginBottom: "10px",
               '&:hover': {

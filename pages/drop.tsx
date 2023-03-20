@@ -42,7 +42,7 @@ const Drop = () => {
                     Chain: Polygon
                 </p>
                 <p style={{textAlign: "center"}}>
-                    Cost: 37.5 MATIC
+                    Cost: 40 MATIC
                 </p>
                 <button
                     disabled={isLoading}

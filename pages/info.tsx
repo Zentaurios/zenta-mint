@@ -90,6 +90,9 @@ const Info: NextPage = () => {
         <p>
             The video chat costs $1 per person per month plus tax. This is from an outside service. There will be various methods soon for some price not much over $1 per month to cover the costs of this. This will unfortunately be required to be purchased by anyone looking to use the video chat. However, it does allow for unlimited time in calls within each month. 
         </p>
+        <p>
+            Edited 3/20/2023: It is also an option each account signs up for its own video chat service and submits it to Zentuarios. This would give you greater control of your chat and 25 users free each month. The point is, video chat expenses cannot be vcovered by Zenturios strictly from firsthand NFT sales.
+        </p>
         <h3>
             Future Utility
         </h3>
