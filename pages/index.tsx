@@ -55,9 +55,9 @@ const Home: NextPage = () => {
               </div>
 
               <div style={{ display: "flex", flexDirection: "column", minWidth: "200px" }}>
-                <h3>Future Utitlies</h3>
+                <h3>Future Utilities</h3>
                 <p>First access and Beta testing for any future Zentaurios Utilities. Mini roadmap below:</p>
-                <p>Short form video content (think TikTok)</p>
+                <p>Short form video content ...think TikTok</p>
                 <p>Long form, creator monetized video content</p>
                 <p>Web3 Educational Platform, educator monetization</p>
               </div>
