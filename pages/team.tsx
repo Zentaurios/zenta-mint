@@ -22,7 +22,7 @@ const Team: NextPage = () => {
         <h2>Just one person?</h2>
         <p>Over the last 3 years I have filtered through a network of crypto related connections. My unofficial partners are better teammates than the official teammates of many projects. I have a series of projects, people, and blockchains to be that have proven themselves. Zentaurios is highly automated but I will be looking for paid help when funding allows. Priority hiring will go to involved community members. Full disclosure, there is already a list.</p>
         <p>I look forward to adding more people to this page.</p>
-        <p>"This is not a moon mission, this is Zentaurios."</p>
+        <p>~This is not a moon mission, this is Zentaurios.~</p>
         <p style={{marginBottom: '100px'}}>-🌲💙</p>
         
       </main>
