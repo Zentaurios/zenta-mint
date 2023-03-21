@@ -17,6 +17,7 @@ const Info: NextPage = () => {
         <meta property='og:url' content="https://legacy.zentaurios.app/whitelist" />
         <meta property="fb:app_id" content="784086316061416" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/zentauria-sample.png" />
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}> 
@@ -29,12 +30,12 @@ const Info: NextPage = () => {
             Fill out the form to join the Whitelist. WhiteList will run in a few phases before open minting. NFTS will be available on the marketplaces throughout.
         </p>
         <p>Current whitelist minting date: March 30, 2023</p>
-        <p>If you wish to take part in the referal system:</p>
+        <p>If you wish to take part in the referral system:</p>
             <ul>
                 <li>Include your Twitter handle</li>
                 <li>The @ is not neccessary but is not problematic</li>
                 <li>Twitter handles and wallet addresses will never be public together</li>
-                <li>10% of sale to any DOCUMENTED referal</li>
+                <li>10% of sale to any DOCUMENTED referral</li>
                 <li>Referred buyer MUST INCLUDE the Twitter handle of the referrer</li>
                 <li>Your Twitter handle must have an associated wallet address</li>
                 <li>You cannot refer yourself</li>

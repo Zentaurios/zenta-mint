@@ -13,12 +13,13 @@ const Home: NextPage = () => {
         <meta name="description"
           content="Zentaurios Legacy NFTs are access tokens to the Web3 Content Creator Community. #Web3Community #NFTCommunity #Zentauria #ZentauriosNFTS #PolygonNFTs"
         />
-        <meta property='og:title' content={"Zentaurios NFTs - Web3 Community"} />
-        <meta property='og:image' content={"/zentauria-sample.png"} />
+        <meta property='og:title' content="Zentaurios NFTs - Web3 Community" />
+        <meta property='og:image' content="/zentauria-sample.png" />
         <meta property='og:description' content="Zentaurios Legacy NFTs are access tokens to the Web3 Content Creator Community. #Web3Community #NFTCommunity #Zentauria #Zentaurios" />
         <meta property='og:url' content="https://legacy.zentaurios.app/" />
         <meta property="fb:app_id" content="784086316061416" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/zentauria-sample.png" />
       </Head>
       <main className={styles.main} style={{ textAlign: "center" }}>
         <div style={{ display: "flex", flexDirection: "row", textAlign: "center", flexWrap: 'wrap', justifyContent: 'space-around', marginLeft: 'auto', marginRight: 'auto', maxWidth: "96vw", marginBottom: "40px" }}>
@@ -35,7 +36,7 @@ const Home: NextPage = () => {
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <h2>Zentaurios Legacy NFTs are access tokens to the Web3 Content Creator Community</h2>
-            <p>The goal of the Web3 Content Creator Community is to educate and onboard people into Web3 and NFTs through quality content creation and distribution. By not focusing on hype but highlighting community, utility, and financial benefits of Web3 and content creation, Zentaurios seeks to bring people into Web3 not because it is new technology but because it useful technology.</p>
+            <p>The goal of the Web3 Content Creator Community is to educate and onboard people into Web3 and NFTs through quality content creation and distribution. By not focusing on hype but highlighting community, utility, and financial benefits of Web3 and content creation, Zentaurios seeks to bring people into Web3 not because it is new technology but because it is useful technology.</p>
             <h2>Utilities</h2>
 
             <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: 'space-around', marginLeft: 'auto', marginRight: 'auto' }}>
