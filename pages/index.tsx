@@ -36,6 +36,7 @@ const Home: NextPage = () => {
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <h2>Zentaurios Legacy NFTs are access tokens to the Web3 Content Creator Community</h2>
+            <Link href="/drop" style={{marginTop: "20px"}}><button>NFT Drop</button></Link>
             <p>The goal of the Web3 Content Creator Community is to educate and onboard people into Web3 and NFTs through quality content creation and distribution. By not focusing on hype but highlighting community, utility, and financial benefits of Web3 and content creation, Zentaurios seeks to bring people into Web3 not because it is new technology but because it is useful technology.</p>
             <h2>Utilities</h2>
 
@@ -53,6 +54,13 @@ const Home: NextPage = () => {
                 <p>Holders of two Legacy NFTs get their own token gated community.</p>
                 <p>This is an ideal setting for sharing private newsletters, educational resources, or consulting meetings.</p>
                 <p>Your community is token gated with your NFTS!</p>
+              </div>
+
+              <div style={{ display: "flex", flexDirection: "column", minWidth: "200px" }}>
+                <h3>Community Support</h3>
+                <p>Token Gated Geneva Chat</p>
+                <p>Legacy Holders do not get free dev help but definitely get priority.</p>
+                <p>Social media support - crossplatfrom retweets to Zentaurios business pages...more info in time.</p>
               </div>
 
               <div style={{ display: "flex", flexDirection: "column", minWidth: "200px" }}>
