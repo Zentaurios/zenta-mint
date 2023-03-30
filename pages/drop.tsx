@@ -319,7 +319,7 @@ import {
             </>
           )}
         </div>
-        <div style={{ maxHeight: "200px", overflow: "hidden" }}>
+        <div style={{ maxHeight: "200px", maxWidth: "100vw", overflow: "hidden" }}>
             <Image
               alt="Zentaurios Legacy NFT Banner on OpenSea #Zentaurios"
               src="/zentaurios-opensea-banner.png"
