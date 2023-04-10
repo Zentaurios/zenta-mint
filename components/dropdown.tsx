@@ -94,28 +94,6 @@ export default function DropMenu() {
             </Link>
           </Dropdown.Item>
 
-          <Dropdown.Item key="whitelist"
-            css={{
-              marginBottom: "10px",
-              '&:hover': {
-                background: '$purple800',
-                color: '#d728e6',
-              },
-              '&:active': {
-                background: '$purple800',
-              },
-              '&:focus': {
-                borderColor: '$purple800',
-              },
-            }}
-          >
-            <Link href="/whitelist">
-              <p style={{ width: "240px", fontSize: "1.3rem" }}>
-                Whitelist Info
-              </p>
-            </Link>
-          </Dropdown.Item>
-
           <Dropdown.Item key="my-nfts"
             css={{
               marginBottom: "10px",

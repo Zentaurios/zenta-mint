@@ -89,7 +89,7 @@ const Home: NextPage = () => {
             <p>Check out the doxxed <Link href="/team">Zentaurios Team Page</Link></p>
             <p><Link href="https://zentaurios.app/nft-terms-and-conditions" target="_blank">Zentaurios Legacy NFT Terms and Conditions</Link></p>
 
-            <Link href="/whitelist" style={{marginTop: "20px"}}><button>Join Whitelist</button></Link>
+            {/*<Link href="/whitelist" style={{marginTop: "20px"}}><button>Join Whitelist</button></Link>*/}
             <Link href="/marketplace" style={{marginTop: "30px"}}><button>Marketplace</button></Link>
           </div>
           <Image
