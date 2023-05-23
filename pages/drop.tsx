@@ -215,7 +215,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Buy NFTs - Zentaurios Membership</title>
+        <title>Buy NFTs - Zentaurios NFT Membership</title>
         <meta name="description"
           content="Buy NFTs with crypto, card, Google pay, or Apple Pay. Buy a Zentaurios Legacy NFT to support #Web3Community. NFTs as keys."
         />
@@ -230,14 +230,14 @@ const Home: NextPage = () => {
         {!isLoading &&
           <div className={styles.infoSide}>
             {/* Title of your NFT Collection */}
-            <h1>{contractMetadata?.name}</h1>
+            <h1>Zentaurios Legacy NFTs</h1>
             {/* Description of your NFT Collection */}
             <p className={styles.description}>
-              {contractMetadata?.description}
+              These NFTs act as authentication tokens to the Zentaurios Decentralized Network and Ecosystem. Zentaurios Legacy NFTs grant permanent priveleges to posting on Zentaurios and currently get your content a larger audience.
             </p>
           </div>
         }
-        <div className={styles.mintInfoContainer}>
+        <div className={styles.mintInfoContainer} style={{marginTop: "-60px"}}>
           {isLoading ? (
             <p>Loading...</p>
           ) : (
@@ -335,8 +335,8 @@ const Home: NextPage = () => {
             </>
           )}
         </div>
-        <div style={{ maxHeight: "200px", maxWidth: "100vw", overflow: "hidden", textAlign: "center", marginTop: "-60px", marginBottom: "20px" }}>
-          <p>Or pay with card, Google Pay, or ApplePay on <Link href="https://withpaper.com/checkout/1b18e9d0-b760-4ee2-a63a-465a6fc100df" target="_blank" >Paper</Link>.</p>
+        <div style={{ maxHeight: "200px", maxWidth: "100vw", overflow: "hidden", textAlign: "center", marginTop: "-80px", marginBottom: "20px" }}>
+          <p style={{marginBottom: "40px"}}>Or pay with card, Google Pay, or ApplePay on <Link href="https://withpaper.com/checkout/1b18e9d0-b760-4ee2-a63a-465a6fc100df" target="_blank" >Paper</Link>.</p>
           <Image
             alt="Zentaurios Legacy NFT Banner on OpenSea #Zentaurios"
             src="/zentaurios-opensea-banner.png"
