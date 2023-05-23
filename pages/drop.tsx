@@ -233,7 +233,7 @@ const Home: NextPage = () => {
             <h1>Zentaurios Legacy NFTs</h1>
             {/* Description of your NFT Collection */}
             <p className={styles.description}>
-              These NFTs act as authentication tokens to the Zentaurios Decentralized Network and Ecosystem. Zentaurios Legacy NFTs grant permanent priveleges to posting on Zentaurios and currently get your content a larger audience.
+              Zentaurios Legacy NFTs act as authentication tokens to the Zentaurios Decentralized Network and Ecosystem. Zentaurios Legacy NFTs grant permanent privileges to posting on Zentaurios and currently get your content a larger audience.
             </p>
           </div>
         }
